@@ -1,0 +1,16 @@
+body #header {
+  background-color: lightblue;
+}
+
+.button {
+  background-color: lightgreen;
+}
+
+.content {
+  font-size: 18px;
+}
+
+li {
+  background-color: lightgoldenrodyellow;
+}
+

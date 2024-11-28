@@ -1,0 +1,125 @@
+body {
+  background-color: lightgrey;
+}
+.page {
+  position: relative;
+  width: 70vw;
+  height: 100%;
+  border: solid;
+  padding: 5rem;
+  padding-right: 10rem;
+  margin-left: 6rem;
+  background-color: white;
+}
+
+.container1 {
+  position: relative;
+  width: 65vw;
+  height: 40vh;
+  margin-left: 6rem;
+  border: solid 5px;
+}
+
+.container1 .box1 {
+  position: absolute;
+  width: 55%;
+  height: 25%;
+  background-color: bisque;
+  border: solid 1px;
+  top: 0.05rem;
+}
+
+.container1 .box2 {
+  position:absolute;
+  width: 30%;
+  height: 100%;
+  background-color: lightblue;
+  border: solid 1px;
+  left: 70%;
+}
+
+.container2 {
+  position: relative;
+  width: 65vw;
+  height: 60vh;
+  margin-left: 6rem;
+  margin-top: 6rem;
+  border: solid;
+}
+
+.container2 .box1 {
+  position: absolute;
+  width: 45%;
+  height: 25%;
+  background-color: lightpink;
+  border: solid 1px;
+  right: 26%;
+}
+
+.container2 .box2 {
+  position: absolute;
+  width: 45%;
+  height: 25%;
+  background-color: lemonchiffon;
+  border: solid 1px;
+  bottom: 44%;
+  right: 26%;
+}
+
+.container2 .box3 {
+  position: absolute;
+  width: 45%;
+  height: 25%;
+  background-color: lightseagreen;
+  border: solid 1px;
+  bottom: 0;
+}
+
+.container2 .box4 {
+  position: absolute;
+  width: 45%;
+  height: 25%;
+  background-color: plum;
+  border: solid 1px;
+  bottom: 0;
+  right: 0;
+}
+
+.container3 {
+  position: relative;
+  width: 60vw;
+  height: 45vh;
+  margin-left: 10rem;
+  margin-top: 2rem;
+  border: solid 5px;
+}
+
+.container3 .box1 {
+  position: absolute;
+  width: 12%;
+  height: 30%;
+  background-color: lightblue;
+  border: solid 1px;
+  border-radius: 50%;
+  right: 0;
+}
+
+.container3 .circle {
+  position: absolute;
+  width: 45%;
+  height: 25%;
+  background-color: lightsalmon;
+  border: solid 1px;
+  bottom: 0;
+  left: 0;
+}
+
+.container3 .box2 {
+  position: absolute;
+  width: 45%;
+  height: 25%;
+  background-color: lightpink;
+  border: solid 1px;
+  left: 0;
+  top: 2%;
+}
