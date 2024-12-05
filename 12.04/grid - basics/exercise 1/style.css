@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, Helvetica, sans-serif ;
+}
+.container {
+  display: grid;
+  grid-template-columns: 300px 150px 300px;
+  grid-template-rows: 80px 80px 80px;
+}
+
+.box {
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 8px;
+  border: solid 5px salmon;
+}
+#box1 {
+  background-color: lightpink;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#box2 {
+  background-color: hsl(120, 73%, 75%, 0.5);
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  border: solid 5px rgb(155, 219, 59);
+}
